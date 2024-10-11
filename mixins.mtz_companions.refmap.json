@@ -1,0 +1,66 @@
+{
+  "mappings": {
+    "com/metropolize/mtz_companions/mixins/world/MixinWorldCarver": {
+      "carveBlock": "Lnet/minecraft/world/level/levelgen/carver/WorldCarver;m_183633_(Lnet/minecraft/world/level/levelgen/carver/CarvingContext;Lnet/minecraft/world/level/levelgen/carver/CarverConfiguration;Lnet/minecraft/world/level/chunk/ChunkAccess;Ljava/util/function/Function;Lnet/minecraft/world/level/chunk/CarvingMask;Lnet/minecraft/core/BlockPos$MutableBlockPos;Lnet/minecraft/core/BlockPos$MutableBlockPos;Lnet/minecraft/world/level/levelgen/Aquifer;Lorg/apache/commons/lang3/mutable/MutableBoolean;)Z"
+    },
+    "com/metropolize/mtz_companions/mixins/world/MixinChunkSerializer": {
+      "read": "Lnet/minecraft/world/level/chunk/storage/ChunkSerializer;m_188230_(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/ai/village/poi/PoiManager;Lnet/minecraft/world/level/ChunkPos;Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/world/level/chunk/ProtoChunk;",
+      "write": "Lnet/minecraft/world/level/chunk/storage/ChunkSerializer;m_63454_(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/level/chunk/ChunkAccess;)Lnet/minecraft/nbt/CompoundTag;"
+    },
+    "com/metropolize/mtz_companions/mixins/MixinBoat": {
+      "tick": "Lnet/minecraft/world/entity/vehicle/Boat;m_8119_()V"
+    },
+    "com/metropolize/mtz_companions/mixins/world/MixinLevelChunk": {
+      "<init>(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/level/chunk/ProtoChunk;Lnet/minecraft/world/level/chunk/LevelChunk$PostLoadProcessor;)V": "Lnet/minecraft/world/level/chunk/LevelChunk;<init>(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/level/chunk/ProtoChunk;Lnet/minecraft/world/level/chunk/LevelChunk$PostLoadProcessor;)V"
+    },
+    "com/metropolize/mtz_companions/mixins/MixinLivingEntity": {
+      "handleOnClimbable": "Lnet/minecraft/world/entity/LivingEntity;m_21297_(Lnet/minecraft/world/phys/Vec3;)Lnet/minecraft/world/phys/Vec3;"
+    },
+    "com/metropolize/mtz_companions/mixins/MixinLootTable": {
+      "pools": "f_79109_:Ljava/util/List;"
+    },
+    "com/metropolize/mtz_companions/mixins/commands/MixinEntitySelector": {
+      "findEntitiesRaw": "Lnet/minecraft/commands/arguments/selector/EntitySelector;m_245733_(Lnet/minecraft/commands/CommandSourceStack;)Ljava/util/List;",
+      "Lnet/minecraft/commands/arguments/selector/EntitySelector;findPlayers(Lnet/minecraft/commands/CommandSourceStack;)Ljava/util/List;": "Lnet/minecraft/commands/arguments/selector/EntitySelector;m_121166_(Lnet/minecraft/commands/CommandSourceStack;)Ljava/util/List;"
+    },
+    "com/metropolize/mtz_companions/mixins/MixinDebugScreenOverlay": {
+      "getSystemInformation": "Lnet/minecraft/client/gui/components/DebugScreenOverlay;m_94078_()Ljava/util/List;"
+    },
+    "com/metropolize/mtz_companions/mixins/world/MixinAquiferFluidStatus": {
+      "computeFluid": "Lnet/minecraft/world/level/levelgen/Aquifer$NoiseBasedAquifer;m_188447_(III)Lnet/minecraft/world/level/levelgen/Aquifer$FluidStatus;"
+    }
+  },
+  "data": {
+    "searge": {
+      "com/metropolize/mtz_companions/mixins/world/MixinWorldCarver": {
+        "carveBlock": "Lnet/minecraft/world/level/levelgen/carver/WorldCarver;m_183633_(Lnet/minecraft/world/level/levelgen/carver/CarvingContext;Lnet/minecraft/world/level/levelgen/carver/CarverConfiguration;Lnet/minecraft/world/level/chunk/ChunkAccess;Ljava/util/function/Function;Lnet/minecraft/world/level/chunk/CarvingMask;Lnet/minecraft/core/BlockPos$MutableBlockPos;Lnet/minecraft/core/BlockPos$MutableBlockPos;Lnet/minecraft/world/level/levelgen/Aquifer;Lorg/apache/commons/lang3/mutable/MutableBoolean;)Z"
+      },
+      "com/metropolize/mtz_companions/mixins/world/MixinChunkSerializer": {
+        "read": "Lnet/minecraft/world/level/chunk/storage/ChunkSerializer;m_188230_(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/ai/village/poi/PoiManager;Lnet/minecraft/world/level/ChunkPos;Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/world/level/chunk/ProtoChunk;",
+        "write": "Lnet/minecraft/world/level/chunk/storage/ChunkSerializer;m_63454_(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/level/chunk/ChunkAccess;)Lnet/minecraft/nbt/CompoundTag;"
+      },
+      "com/metropolize/mtz_companions/mixins/MixinBoat": {
+        "tick": "Lnet/minecraft/world/entity/vehicle/Boat;m_8119_()V"
+      },
+      "com/metropolize/mtz_companions/mixins/world/MixinLevelChunk": {
+        "<init>(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/level/chunk/ProtoChunk;Lnet/minecraft/world/level/chunk/LevelChunk$PostLoadProcessor;)V": "Lnet/minecraft/world/level/chunk/LevelChunk;<init>(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/level/chunk/ProtoChunk;Lnet/minecraft/world/level/chunk/LevelChunk$PostLoadProcessor;)V"
+      },
+      "com/metropolize/mtz_companions/mixins/MixinLivingEntity": {
+        "handleOnClimbable": "Lnet/minecraft/world/entity/LivingEntity;m_21297_(Lnet/minecraft/world/phys/Vec3;)Lnet/minecraft/world/phys/Vec3;"
+      },
+      "com/metropolize/mtz_companions/mixins/MixinLootTable": {
+        "pools": "f_79109_:Ljava/util/List;"
+      },
+      "com/metropolize/mtz_companions/mixins/commands/MixinEntitySelector": {
+        "findEntitiesRaw": "Lnet/minecraft/commands/arguments/selector/EntitySelector;m_245733_(Lnet/minecraft/commands/CommandSourceStack;)Ljava/util/List;",
+        "Lnet/minecraft/commands/arguments/selector/EntitySelector;findPlayers(Lnet/minecraft/commands/CommandSourceStack;)Ljava/util/List;": "Lnet/minecraft/commands/arguments/selector/EntitySelector;m_121166_(Lnet/minecraft/commands/CommandSourceStack;)Ljava/util/List;"
+      },
+      "com/metropolize/mtz_companions/mixins/MixinDebugScreenOverlay": {
+        "getSystemInformation": "Lnet/minecraft/client/gui/components/DebugScreenOverlay;m_94078_()Ljava/util/List;"
+      },
+      "com/metropolize/mtz_companions/mixins/world/MixinAquiferFluidStatus": {
+        "computeFluid": "Lnet/minecraft/world/level/levelgen/Aquifer$NoiseBasedAquifer;m_188447_(III)Lnet/minecraft/world/level/levelgen/Aquifer$FluidStatus;"
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "required": true,
+  "package": "com.metropolize.mtz_companions.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "mixins.mtz_companions.refmap.json",
+  "mixins": [
+    "MixinAirBlock",
+    "MixinBoat",
+    "MixinChestBlockEntity",
+    "MixinContainerOpenersCounter",
+    "MixinDebugScreenOverlay",
+    "MixinFenceGateBlock",
+    "MixinLevel",
+    "MixinLivingEntity",
+    "MixinLootTable",
+    "MixinServerChunkCache",
+    "commands.MixinCommandSourceStack",
+    "commands.MixinEntityArgument",
+    "commands.MixinEntitySelector",
+    "world.MixinAquiferFluidStatus",
+    "world.MixinChunkAccess",
+    "world.MixinChunkSerializer",
+    "world.MixinLevelChunk",
+    "world.MixinWorldCarver"
+  ],
+  "minVersion": "0.8",
+  "client": [
+    "commands.MixinClientCommandSourceStack",
+    "commands.MixinClientSuggestionProvider"
+  ]
+}
