@@ -1,0 +1,16 @@
+{
+  "jars": [
+    {
+      "identifier": {
+        "group": "com.metropolize.characterengine",
+        "artifact": "mtzcharacterengine-forge-1.20.1"
+      },
+      "version": {
+        "range": "[1.0-SNAPSHOT]",
+        "artifactVersion": "1.0-SNAPSHOT"
+      },
+      "path": "META-INF/jarjar/mtzcharacterengine-forge-1.20.1-1.0-SNAPSHOT.jar",
+      "isObfuscated": false
+    }
+  ]
+}
