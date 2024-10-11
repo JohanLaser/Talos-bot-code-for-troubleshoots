@@ -1,0 +1,11 @@
+{
+  "values": [
+    "#forge:stone",
+    "#forge:ores",
+    "#forge:gravel",
+    "#forge:cobblestone",
+    "#forge:gems",
+    "#forge:ingots",
+    "minecraft:coal"
+  ]
+}
