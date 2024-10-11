@@ -1,0 +1,11 @@
+{
+  "commands.mtz_companions.reload.failed": "Tovarišu se ni uspelo ponovno naložiti",
+  "commands.mtz_companions.reload.success": "Tovariš je bil ponovno naložen %s",
+  "commands.mtz_companions.summon.success": "Priklican nov tovariš, %s",
+  "companion.mtz_companions.error.discarded": "%1$s je naletel na težavo, odstranjevanje...",
+  "companion.mtz_companions.respawn.anchor": "%1$s je bil ubit. Naj počiva v miru. Ponovno vstajenje na lokaciji sidra: %2$s",
+  "companion.mtz_companions.respawn.bed": "%1$s je bil ubit. Naj počiva v miru. Ponovno vstajenje v postelji: %2$s",
+  "companion.mtz_companions.respawn.global": "%1$s je bil ubit. Naj počiva v miru. Ponovno vstajenje na začetku sveta.",
+  "companion.mtz_companions.set_spawn": "Lokacija ponovnega vstajenja je bila nastavljena na %1$s: %2$s",
+  "config.mtz_companions.title": "MTZ Companions nastavitve"
+}

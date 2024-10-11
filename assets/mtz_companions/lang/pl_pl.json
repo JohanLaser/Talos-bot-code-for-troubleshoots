@@ -1,0 +1,14 @@
+{
+  "commands.mtz_companions.failed": "Wprowadzono nieprawidłową komendę.",
+  "commands.mtz_companions.not_found": "%s nie został znaleziony.",
+  "commands.mtz_companions.reload.failed": "Nie udało się przeładować kompana",
+  "commands.mtz_companions.reload.success": "Przeładowano kompana %s",
+  "commands.mtz_companions.summon.success": "Przyzwano nowego kompana, %s",
+  "companion.mtz_companions.error.discarded": "%1$s napotkał błąd, usuwanie...",
+  "companion.mtz_companions.respawn.anchor": "%1$s został zabity. Odradzanie przy kotwicy odrodzenia: %2$s",
+  "companion.mtz_companions.respawn.bed": "%1$s został zabity. Odradzanie w łóżku: %2$s",
+  "companion.mtz_companions.respawn.global": "%1$s został zabity. Odradzanie na spawnie serwera.",
+  "companion.mtz_companions.set_spawn": "Ustawiono punkt odrodzenia dla %1$s: %2$s",
+  "config.mtz_companions.show_ids": "Pokaż ID kompana",
+  "config.mtz_companions.title": "Konfiguracja Kompana MTZ"
+}

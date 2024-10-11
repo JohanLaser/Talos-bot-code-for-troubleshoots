@@ -1,0 +1,11 @@
+{
+  "commands.mtz_companions.reload.failed": "Malsukcesis reŝargi kunulon",
+  "commands.mtz_companions.reload.success": "Reŝargita kunulo %s",
+  "commands.mtz_companions.summon.success": "Alvokita nova kunulo, %s",
+  "companion.mtz_companions.error.discarded": "%1$s renkontis eraron, forigante...",
+  "companion.mtz_companions.respawn.anchor": "%1$s estis mortigita. Reapero ĉe reaperoankro: %2$s",
+  "companion.mtz_companions.respawn.bed": "%1$s estis mortigita. Reapero ĉe lito: %2$s",
+  "companion.mtz_companions.respawn.global": "%1$s estis mortigita. Reapero ĉe servila aperejo.",
+  "companion.mtz_companions.set_spawn": "Reaperejo agordita por %1$s: %2$s",
+  "config.mtz_companions.title": "Agordo de MTZ Kunuloj"
+}
